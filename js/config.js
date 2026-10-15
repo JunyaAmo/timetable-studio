@@ -43,7 +43,7 @@ export const config = {
         accent: "#168BEB"
 
         // 背景画像のパス
-        backgroundImage: "./assets/background.jpg",
+        backgroundImage: "./assets/background.jpeg",
 
         // 背景画像の透明度
         // 0 = 非表示、1 = 完全表示
