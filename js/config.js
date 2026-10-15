@@ -25,7 +25,7 @@ export const config = {
         name: "WedssportsBandoh",
 
         // チームロゴの画像パス
-        logo: "./assets/logo.svg"
+        logo: "./assets/logo.png"
 
     },
 
@@ -122,7 +122,7 @@ export const config = {
             id: "a",
             start: "09:00",
             end: "10:00",
-            title: "朝のミーティング",
+            title: "練習走行",
             color: "#6a9bd4"
         },
 
@@ -135,7 +135,7 @@ export const config = {
             id: "b",
             start: "10:30",
             end: "12:00",
-            title: "制作・リサーチ",
+            title: "予選",
             color: "#4fa6b0"
         },
 
@@ -148,7 +148,7 @@ export const config = {
             id: "c",
             start: "15:00",
             end: "17:00",
-            title: "プロジェクト作業",
+            title: "決勝",
             color: "#73e0c5"
         },
 
@@ -161,7 +161,7 @@ export const config = {
             id: "d",
             start: "18:00",
             end: "19:00",
-            title: "レビュー",
+            title: "表彰式",
             color: "#a49ee8"
         }
 

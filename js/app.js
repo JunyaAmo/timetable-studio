@@ -569,7 +569,7 @@ function render() {
 
         $('headline').textContent =
             state.next
-                ? '次の予定まで'
+                ? 'お待ちください'
                 : '本日の予定は終了';
 
         // 大きな時計
