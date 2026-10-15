@@ -1,6 +1,6 @@
 // 編集する場所: ロゴ・テーマ・空き時間圧縮ルール・予定
 export const config = {
-  brand: { name: "STUDIO / 01", logo: "./assets/logo.svg" },
+  brand: { name: "WedssportsBandoh", logo: "./assets/logo.svg" },
   theme: { background: "#0b111b", accent: "#73e0c5" },
   timeline: {
     // 間隔が60分以上のとき、その区間だけ30分相当の幅で描画
