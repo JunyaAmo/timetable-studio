@@ -92,7 +92,7 @@ body {
     position: absolute;
 
     inset: 0;
-    z-index: -1;
+    z-index: 0;
 
     width: 100%;
     height: 100%;
@@ -654,4 +654,51 @@ kbd {
     border-color: #366A9A;
     background: #112C49;
     color: #EAF4FF;
+}
+
+
+/* ============================================================
+   12. 背景JPEG画像
+============================================================ */
+
+/* 背景画像 */
+.background-photo {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+    /* 画像の透明度 */
+    opacity: var(--background-image-opacity, 0.16);
+
+    /* 背景に配置 */
+    z-index: -2;
+
+    pointer-events: none;
+}
+
+/* 背景の画像と文字の間に暗い膜を配置 */
+.display::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: rgba(8, 20, 37, 0.35);
+
+    z-index: -1;
+
+    pointer-events: none;
+}
+
+/* 文字・タイムライン */
+.header,
+.hero,
+.footer {
+    position: relative;
+    z-index: 1;
 }

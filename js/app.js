@@ -860,6 +860,29 @@ $('display').style.setProperty(
 
 
 /* ------------------------------------------------------------
+   背景画像設定
+------------------------------------------------------------ */
+
+const backgroundPhoto = $('background-photo');
+
+// 背景画像を設定
+if (config.theme.backgroundImage) {
+
+    backgroundPhoto.src = config.theme.backgroundImage;
+
+    // 透明度を設定
+    backgroundPhoto.style.opacity =
+        String(config.theme.backgroundImageOpacity ?? 0.16);
+
+} else {
+
+    // 画像が指定されていなければ非表示
+    backgroundPhoto.style.display = 'none';
+
+}
+
+
+/* ------------------------------------------------------------
    アプリ起動
 ------------------------------------------------------------ */
 
