@@ -79,16 +79,16 @@ export const config = {
     animation: {
 
         // 画面に表示する粒子の数
-        particleCount: 48,
+        particleCount: 192,
 
         // 粒子の移動速度
         // 数値が大きいほど速くなる
-        speed: 0.35,
+        speed: 0.6,
 
         // 粒子の透明度
         // 0 = 完全透明
         // 1 = 完全不透明
-        opacity: 0.24
+        opacity: 0.8
 
     },
 
