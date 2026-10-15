@@ -40,7 +40,7 @@ export const config = {
         background: "#081425",
 
         // 現在の予定・進捗バー・現在時刻ライン
-        accent: "#168BEB"
+        accent: "#168BEB",
 
         // 背景画像のパス
         backgroundImage: "./assets/background.jpeg",
